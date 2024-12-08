@@ -1,0 +1,526 @@
+@import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+body{
+    background-color: #f2f2f2;
+}
+.navbar-expand-lg {
+background-color: #436152;
+border-radius: 0px;
+ border-color:transparent;
+padding: 20px;
+-webkit-box-shadow: 1px 3px 1px 1px #ABABAB;
+box-shadow: 1px 3px 1px 1px #ABABAB;
+margin-bottom:20px;
+position: relative;
+}
+.navbar-expand-lg .navbar-brand {
+  color:white;
+  font-size:30px;
+  text-decoration:none;
+  font-family: "Grand Hotel";
+}
+.navbar-expand-lg .navbar-brand:hover {
+    color:#fbd79a;
+    font-size:30px;
+    text-decoration: none;
+    font-family: "Grand Hotel";
+    transition: color .5s linear;
+  }
+  .navbar-expand-lg .navbar-nav >li>a{
+    color:#fff;
+    margin-left: 10px;
+    font-family: "Poiret One";
+    font-size: 20px;
+    border:#fff solid 1px;
+    padding:5px;
+    border-radius: 10px;
+  }
+  .navbar-expand-lg .navbar-nav >li>a:hover{
+    color:#fbd79a;
+    margin-left: 10px;
+    font-family: "Poiret One";
+    font-size: 20px;
+    border:#fbd79a solid 1px;
+    padding:5px;
+    border-radius: 10px;
+    background-color: #1d89aa;
+    transition: color .5s linear;
+    transition: background-color .5s linear;
+
+  }
+  /* Yazıları Ortalama */
+.navbar .navbar-nav{
+    display:inline-flex;
+    float:none;
+    vertical-align:top;
+  }
+.navbar .navbar-collapse{
+    text-align: center;
+  }
+  /* Yazıları Ortalama */
+
+    /* Footer */
+
+.row{
+    margin-right: 0px;
+    margin-left: 0px;
+    
+}
+.mavi{
+  background-color: #436152;
+  -webkit-box-shadow: 1px 3px 1px 1px #ABABAB;
+  box-shadow: 1px 3px 1px 1px #ABABAB;
+}
+
+.container {
+    margin-left: 60px;
+    display: flex;
+  }
+  
+  .tecrube, .hobiler, .benkimim {
+    flex: 1;
+    margin: 0 10px;
+  }
+.tecrube ul{
+    list-style: none;
+    padding: 0;
+    margin: 0px;
+
+}
+.tecrube li{
+    margin-bottom: 20px;
+    border-bottom: 1px solid #1d89aa;
+    line-height: 2px;
+    padding-bottom: 10px;
+}
+.tecrube li:last-child{
+    padding: 0px;
+    border-bottom: none;
+}
+.tecrube li a {
+    font-size: 14px;
+    color:white;
+}
+.tecrube li a:hover {
+    font-size: 14px;
+    color:#fbd79a;
+}
+.tecrube h6,.benkimim h6{
+    font:100 24px/20px 'Source Sans Pro',sans-serif;
+    letter-spacing: -0.05em;
+    font-weight: 300;
+    color:#fbd79a;
+    padding:0;
+    margin: 0;
+    margin-bottom: 15px;
+}
+.font{
+  padding: 20px 0 20px 0;
+  font-size:13px;
+  color:white;
+  font-family: 'PT SANS',sans-serif;
+}
+.name{
+margin: 0;
+padding: 0;
+color:#fbd79a;
+font-size: 17px;
+}
+.benkimim ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.benkimim li{
+  font-size: 14px;
+  color:white;
+  font-family: "PT SANS",sans-serif;
+}
+.medya a{
+  text-decoration: none;
+  color:white;
+  font-size: 25px;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+.medya a:hover{
+  text-decoration: none;
+  color:#fbd79a;
+  font-size: 25px;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+    /* Footer */
+.enson{
+background: #c08457;/* Old browsers */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e0ce2c', endColorstr='#dbd523',GradientType=0 ); /* IE6-9 */
+border:1px solid #777777; 
+border-radius: 10px;
+-webkit-box-shadow: 1px 3px 1px 1px #ABABAB;
+box-shadow: 1px 3px 1px 1px #ABABAB;
+margin-right:60px;
+}
+
+.konu_alani{
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#cdeb8e+13,a5c956+94 */
+background: #c08457;/* Old browsers */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cdeb8e', endColorstr='#a5c956',GradientType=0 ); /* IE6-9 */
+border:1px solid #777777; 
+border-radius: 10px;
+-webkit-box-shadow: 1px 3px 1px 1px #ABABAB;
+box-shadow: 1px 3px 1px 1px #ABABAB;
+max-height:0%;
+}
+
+.devamini_oku{
+    list-style: none;
+}
+.devamini_oku li a{
+    text-decoration: none;
+    margin-top: -20px;
+    font-size: 15px;
+    border: 1px solid #fbd79a;
+    font-family: 'PT SANS',sans-serif;
+    padding: 10px;
+    background-color: #436152;
+    color: #fbd79a;
+    float:right;
+    margin-right:40px;
+}
+.devamini_oku li a:hover{
+    background-color: #1d89aa;
+    color: #383838;
+    border-color: #ffb570;
+    transition: background-color .5s linear;
+}
+.fa-calendar{
+    color:#436152;
+    margin-left: 20px;
+}
+.fa-calendar a{
+    text-decoration: none;
+    color:white;
+    font-family: 'PT SANS',sans-serif;
+    font-size: 16px;
+}
+.fa-calendar a:hover{
+    color:#436152;
+}
+.fa-folder-open{
+    color:#436152;
+    margin-left: 30px;
+    padding: 10px;
+}
+.fa-folder-open a{
+    text-decoration: none;
+    color:white;
+    font-family: 'PT SANS',sans-serif;
+    font-size: 16px;
+}
+.fa-folder-open:hover{
+    color:#436152;
+}
+.fa-archive{
+    color:#436152;
+    margin-left: 30px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.fa-archive a{
+    text-decoration: none;
+    color:white;
+    font-family: 'PT SANS',sans-serif;
+    font-size: 16px;
+}
+.fa-archive a:hover{
+    color:#436152;
+}
+.fa-line-chart{
+    color:#436152;
+    margin-left: 20px;
+}
+.fa-line-chart a{
+    text-decoration: none;
+    color:white;
+    font-family: 'PT SANS',sans-serif;
+    font-size: 16px;
+}
+.fa-line-chart a:hover{
+    color:#436152;
+}
+.fa-sitemap{
+    color:#436152;
+    margin-top: 10px;
+}
+.fa-sitemap a{
+    text-decoration: none;
+    color:white;
+    font-family: 'PT SANS',sans-serif;
+    font-size: 16px;
+}
+.fa-sitemap a:hover{
+    color:#436152;
+}
+.fa-tags{
+    color:#436152;
+    margin-left: 30px;
+}
+.fa-tags a{
+    text-decoration: none;
+    color:white;
+    font-family: 'PT SANS',sans-serif;
+    font-size: 16px;
+}
+.fa-tags a:hover{
+    color:#436152;
+}
+.fa-clock-o{
+    color:#436152;
+    margin-left: 30px;
+}
+.fa-clock-o a{
+    text-decoration: none;
+    color:white;
+    font-family: 'PT SANS',sans-serif;
+    font-size: 16px;
+}
+.fa-clock-o a:hover{
+    color:#436152;
+}
+.fa-eye{
+    color:#436152;
+    margin-left: 30px;
+}
+.fa-eye a{
+    text-decoration: none;
+    color:white;
+    font-family: 'PT SANS',sans-serif;
+    font-size: 16px;
+}
+.fa-eye a:hover{
+    color:#436152;
+}
+.fa-spinner{
+    color:#436152;
+    margin-left: 30px;
+}
+.fa-spinner a{
+    color:white;
+    text-decoration: none;
+    font-family: 'PT SANS',sans-serif;
+    font-size: 16px;
+}
+.fa-spinner a:hover{
+    color:#436152;
+}
+.fa-thumbs-up{
+    color:#436152;
+    margin-left: 30px;
+}
+.fa-thumbs-up a{
+    text-decoration: none;
+    color:white;
+    font-family: 'PT SANS',sans-serif;
+    font-size: 16px;
+}
+.fa-thumbs-up a:hover{
+    color:#436152;
+}
+
+.fa-calendar{
+    color:#436152;
+    margin-left: 20px;
+}
+.fa-calendar a{
+    text-decoration: none;
+    color:white;
+    font-family: 'PT SANS',sans-serif;
+    font-size: 16px;
+}
+.fa-calendar a:hover{
+    color:#436152;
+}
+
+.sira{
+    background-color: #436152;
+    padding: 5px;
+    border: 2px solid #ff9;
+    color:white;
+    border-radius:5px;
+    font-family: 'PT SANS',sans-serif;
+    margin-left: 5px;
+    -webkit-box-shadow: 1px 3px 1px 1px #ABABAB;
+box-shadow: 1px 3px 1px 1px #ABABAB;
+}
+
+.fa-pencil{
+    color:#436152;
+    margin-top: 10px;
+    margin-left:150px;
+}
+.fa-pencil a{
+    text-decoration: none;
+    color:white;
+    font-family: 'PT SANS',sans-serif;
+    font-size: 16px;
+}
+.fa-pencil a:hover{
+    color:#436152;
+}
+.istatistik_alani .fa-user-circle-o{
+    margin-left:-20px;
+    color:#436152;
+    }
+    .istatistik_alani .fa-user-circle-o a{
+    text-decoration: none;
+    color:#f2f2f2;
+    font-family: 'PT SANS',sans-serif;
+    font-size: 16px;
+    }
+    .istatistik_alani .fa-user-circle-o a:hover{
+        color:#436152;
+    }
+
+.sira:hover
+{
+    color:#ff9;
+    text-decoration: none;
+}
+.konu_kisalt{
+    list-style: none;
+    color: white;
+    padding-right: 10px;
+    font-family: 'PT SANS',sans-serif;
+}
+
+/* yazi.php dosyası */
+.istatistik_alani .fa-bookmark{
+margin-left:-20px;
+color:#436152;
+}
+.istatistik_alani .fa-bookmark a{
+text-decoration: none;
+color:#f2f2f2;
+font-family: 'PT SANS',sans-serif;
+font-size: 16px;
+}
+.istatistik_alani .fa-bookmark a:hover{
+    color:#436152;
+}
+
+.istatistik_alani .fa-eye{
+    margin-left:-20px;
+}
+
+.istatistik_alani .fa-clock-o{
+    margin-left:-20px;
+}
+
+.fa-bar-chart{
+    margin-left:20px;
+    color:#436152;
+    }
+.fa-bar-chart a{
+    text-decoration: none;
+    color:#f2f2f2;
+    font-family: 'PT SANS',sans-serif;
+    font-size: 16px;
+    }
+.fa-bar-chart a:hover{
+        color:#436152;
+    }
+    
+#icerik{
+    background-color: #f5f5f5;
+}
+#disicerik{
+    background-color: #f5f5f5;
+    border:1px #999 solid;
+    padding: 20px;
+    border-radius: 15px;
+}
+#konu_adi{
+    background-color: transparent;
+    color:#436152;
+    list-style-type: none;
+    font-family: 'PT SANS',sans-serif;
+    font-weight: bold;
+    margin-left: -22px;;
+    font-size: 20px;
+}
+
+#konu_icerik{
+    background-color: transparent;
+    color:black;
+    list-style-type: none;
+    font-family: 'PT SANS',sans-serif;
+    margin-left: -22px;;
+}
+/* yazi.php dosyası */
+
+
+/* kullanıcı paneli */
+.ck{
+    width: 700px;
+}
+.yonetim_menu{
+    text-align: center;
+    background-color: #333;
+    height: 25px;
+    -webkit-box-shadow: 1px 3px 1px 1px #ABABAB;
+box-shadow: 1px 3px 1px 1px #ABABAB;
+font-family: 'PT SANS',sans-serif;
+
+}
+.yonetim_menu ul li{
+display: inline;
+text-decoration: none;
+list-style-type: none;
+padding: 20px;
+}
+
+.yonetim_menu ul li a{
+    color:#fff;
+}
+.yonetim_menu ul li a:hover{
+    color:#fbd79a;
+}
+.giris{
+    background-color: #436152;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border:2px solid #ff9;
+    color:White;
+    border-radius: 5px;
+    -webkit-box-shadow: 1px 3px 1px 1px #ABABAB;
+    box-shadow: 1px 3px 1px 1px #ABABAB;
+    font-family: 'PT SANS',sans-serif;
+}
+.giris:hover{
+    color:#ff9;
+}
+.yontxt{
+    width:700px;
+    background-color: #436152;
+    color:#fbd79a;
+    border:#436152 solid 1px;
+    padding:5px;
+    border-radius: 10px;
+}
+.txtbox{
+    background-color:#fbd79a;
+    font-family: none;
+}
+.isimclasi{
+    color:#fff;
+    font-family: "Grand Hotel";
+    font-size: 20px;
+}
+.konuclasi{
+    color:#fbd79a;
+    font-size: 20px;
+    font-family: 'PT SANS',sans-serif;
+}
+/* kullanıcı paneli */
